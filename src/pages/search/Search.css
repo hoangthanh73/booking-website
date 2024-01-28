@@ -1,0 +1,10 @@
+/* Styles Search component */
+
+#search-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

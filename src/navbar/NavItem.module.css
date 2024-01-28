@@ -1,0 +1,19 @@
+/* Styles NavbarItem component */
+
+.navbar-bot__item{
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+.navbar-bot__item:hover {
+    opacity: .8;
+}
+
+.navbar-bot__item.active {
+    border: solid 1px #fff;
+    border-radius: 50px;
+}
+
+.navbar-bot__icon {
+    margin-right: 8px;
+}

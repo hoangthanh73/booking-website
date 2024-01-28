@@ -1,0 +1,17 @@
+/* styles TypeHotels Component */
+
+.type-hotel {
+    padding: 8px 0;
+}
+
+.type-hotel__header {
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.type-hotel__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}

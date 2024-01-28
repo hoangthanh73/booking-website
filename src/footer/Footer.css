@@ -1,0 +1,26 @@
+/* Styles footer Component */
+
+.footer-wrapper {
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.footer-item {
+    color: #006ce4;
+    font-size: 14px;
+}
+
+.footer-item:hover {
+    color: #003b95;
+}

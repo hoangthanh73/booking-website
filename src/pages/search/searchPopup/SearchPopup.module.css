@@ -1,0 +1,59 @@
+/* Styles SearchPopup Component */
+
+.form-popup {
+    width: 300px;
+    max-width: 100%;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #ffb700;
+    border-radius: 12px;
+    position: sticky;
+    top: 0;
+}
+
+.form-popup__header {
+    font-size: 32px;
+}
+
+.form-control {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.form-control__title {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.form-control__input {
+    padding: 8px;
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+.form-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.form-option__text {
+    color: #555;
+    white-space: nowrap;
+    display: inline-block;
+    flex: 1;
+    padding-left: 12px;
+}
+
+.form-option__input {
+    padding: 4px 8px;
+    max-width: 80px;
+    display: inline-block;
+    margin-left: auto;
+}

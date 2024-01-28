@@ -1,0 +1,17 @@
+/* STyles Hotels Component */
+
+.hotel {
+    padding: 24px 0;
+}
+
+.hotel-header {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.hotel-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}

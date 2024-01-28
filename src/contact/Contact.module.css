@@ -1,0 +1,54 @@
+/* Styles Contact Component */
+
+.subcribe-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: #003b95;
+    padding: 48px 0;
+}
+
+.subcribe-header {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.subcribe-desc {
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.email,
+.btn {
+    padding: 12px 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.email {
+    color: #333;
+    min-width: 300px;
+    outline: solid 1px #006ce4;
+    color: #333;
+}
+
+.btn {
+    color: #fff;
+    background: #006ce4;
+    transition: .3s;
+}
+
+.btn:hover {
+    opacity: .8;
+}

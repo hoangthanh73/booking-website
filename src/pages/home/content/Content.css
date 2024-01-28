@@ -1,0 +1,7 @@
+/* Styles Content Component */
+
+#main-content {
+    padding-top: 48px;
+    position: relative;
+    z-index: -10;
+}

@@ -1,0 +1,26 @@
+/* Styles CityItem Component */
+
+.city-item {
+    position: relative;
+}
+
+.city-image {
+    border-radius: 12px;
+}
+
+.city-content {
+    color: #fff;
+    position: absolute;
+    bottom: 32px;
+    left: 24px;
+}
+
+.city-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.city-properties {
+    font-size: 18px;
+    font-weight: 500;
+}

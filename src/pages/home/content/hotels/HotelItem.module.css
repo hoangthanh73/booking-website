@@ -1,0 +1,39 @@
+/* Styles HotelItem Component */
+
+.hotel-item {
+    flex: 1;
+}
+
+.hotel-image {
+    height: 400px;
+    width: 100%;
+}
+
+.hotel-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.hotel-title {
+    font-size: 18px;
+    color: #ae3ec9;
+    margin-top: 8px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.hotel-city {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.hotel-price {
+    font-weight: 500;
+}
+
+.hotel-type {
+    margin-left: 12px;
+}

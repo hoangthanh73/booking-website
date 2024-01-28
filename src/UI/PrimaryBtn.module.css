@@ -1,0 +1,24 @@
+.btn {
+    display: inline-block;
+    text-align: center;
+    background-color: #006ce4;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.btn>a,
+.btn>input {
+    background: inherit;
+    border: none;
+    color: #fff;
+    display: block;
+    padding: 12px 16px;
+}
+
+.radius {
+    border-radius: 6px;
+}

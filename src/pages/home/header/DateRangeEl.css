@@ -1,0 +1,12 @@
+/* style DateRangeEl */
+
+.daterange-wrapper {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transform: translateY(16px);
+}
+
+.daterange-wrapper.hidden {
+    display: none;
+}

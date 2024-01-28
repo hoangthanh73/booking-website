@@ -1,0 +1,35 @@
+/* Style Navbar component */
+
+#navbar {
+    background-color: #003b95;
+    color: #fff;
+}
+
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0 16px;
+}
+
+.navbar-top__header {
+    color: inherit;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar-top__action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.navbar-bot {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 12px;
+    margin-left: -16px;
+}
